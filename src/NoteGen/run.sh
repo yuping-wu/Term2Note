@@ -1,0 +1,26 @@
+CUDA_VISIBLE_DEVICES=0,1 NCCL_ASYNC_ERROR_HANDLING=1 NCCL_IB_DISABLE=1 NCCL_TIMEOUT=600 deepspeed dp_finetune.py --deepspeed_config dp_ZeRO_config.json \
+        --output_dir Llama-3.2-1B-Instruct-SFT-DP-EP8 \
+        --model_name_or_path Llama-3.2-1B-Instruct  \
+        --tokenizer_name Llama-3.2-1B-Instruct  \
+        --do_train "yes" \
+        --save_steps 283 \
+        --save_at_last "yes" \
+        --logging_dir Llama-3.2-1B-Instruct-SFT-DP-EP8 \
+        --logging_steps 5 \
+        --seed 42 \
+        --dataloader_num_workers 12 \
+        --train_data_file PATH/TO/processed_conversation_data_train.jsonl \
+        --eval_data_file PATH/TO/processed_conversation_data__val.jsonl \
+        --per_example_max_grad_norm 0.1 \
+        --target_delta 1e-7 \
+        --target_epsilon 8 \
+        --learning_rate 5e-5 \
+        --lr_decay "no" \
+        --num_train_epochs 5 \
+        --per_device_train_batch_size 1 \
+        --gradient_accumulation_steps 64 \
+        --attention_only "no" \
+        --bias_only "no" \
+        --static_lm_head "no" \
+        --static_embedding "no" \
+        --non_private "no"

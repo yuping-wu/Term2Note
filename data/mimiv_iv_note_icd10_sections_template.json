@@ -1,0 +1,38 @@
+{
+    "<note id>": {
+        "full_note": "<full text of the note>",
+        "missing_length": 0,
+        "sections": {
+            "Patient Information": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ],
+            "Clinical Course & History": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ],
+            "Examinations & Findings": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ],
+            "Laboratory & Imaging Results": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ],
+            "Hospital Stay & Treatment": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ],
+            "Medications & Discharge Plan": [
+                "<start index>",
+                "<end index>",
+                "<text>"
+            ]
+        }
+    }
+}

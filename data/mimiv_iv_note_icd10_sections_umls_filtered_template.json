@@ -1,0 +1,81 @@
+{
+    "<note id>": {
+        "full_note": {
+            "text": "<full text of the note>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Patient Information": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Clinical Course & History": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Examinations & Findings": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Laboratory & Imaging Results": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Hospital Stay & Treatment": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        },
+        "Medications & Discharge Plan": {
+            "text": "<text>",
+            "indices": [
+                "<start index>",
+                "<end index>"
+            ],
+            "terms": [
+                "<term1>",
+                "<term2>"
+            ]
+        }
+    }
+}

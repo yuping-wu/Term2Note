@@ -1,0 +1,19 @@
+{
+    "input_file_path": "../data/snomed_ct_entity_linking_UMLS_filtered.json",
+    "embedding_model_name": "abhinand/MedEmbed-large-v0.1",
+    "embedding_batch_size": 32,
+    "disable_differential_privacy": false,
+    "dp_epsilon": 8.0,
+    "dp_delta": 1e-07,
+    "dp_budget_allocation": 0.85,
+    "generation_lm_model": "gpt2-large",
+    "generation_ckpt_path": "../../output/gpt2_sft_mimiciii_epoch5/pytorch_model.bin",
+    "generation_max_length": 512,
+    "generation_temperature": 0.1,
+    "generation_top_p": 1.0,
+    "generation_repetition_penalty": 1.5,
+    "generation_batch_size": 32,
+    "output_dir": "../../output/gpt2_sft_mimiciii_epoch5",
+    "output_stats_file": "snomed_ct_entity_linking_UMLS_filtered_predicted_terms_dp_ep8_delta1e-7_eval_statistics.json",
+    "output_predictions_file": "snomed_ct_entity_linking_UMLS_filtered_predicted_terms_dp_ep5_delta1e-7.json"
+}

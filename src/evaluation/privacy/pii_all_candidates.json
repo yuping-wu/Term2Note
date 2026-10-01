@@ -1,0 +1,22 @@
+{
+    "name": [
+      "<cananical_name> <canonical_surname>",
+      "<cananical_name> <canonical_surname>"
+    ],
+    "address": [
+      "123 Main St Springfield",
+      "456 River Rd Dover"
+    ],
+    "unit_no": [
+      "027-475-2605",
+      "790-941-5049"
+    ],
+    "email": [
+      "q8vxre9ga@gmail.com",
+      "xev6v6@yahoo.com"
+    ],
+    "dob": [
+      "1955-03-20",
+      "1999-01-28"
+    ]
+}
